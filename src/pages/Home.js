@@ -151,11 +151,11 @@ const Home = () => {
                       id="footermain"
                       className={`${
                         loading || hider ? "hidden" : "flex"
-                      } z-30 flex-col bg-[transparent] fixed bottom-0 pt-3 pb-6 left-0 right-0 justify-center items-center px-3`}
+                      } z-30 flex-col bg-[#fff] fixed bottom-0 pt-3 pb-6 left-0 right-0 justify-center items-center px-3`}
                     >
                       <Footer />
 
-                      <div className="bg-[transparent] z-20 h-[67px] w-full fixed bottom-0 left-0 right-0 "></div>
+                      <div className="bg-[#fff] z-20 h-[67px] w-full fixed bottom-0 left-0 right-0 "></div>
                     </div>
                   </>
                 </AnimatePresence>
