@@ -155,7 +155,7 @@ const Home = () => {
                     >
                       <Footer />
 
-                      <div className="bg-[#000] z-20 h-[67px] w-full fixed bottom-0 left-0 right-0 "></div>
+                      <div className="bg-[transparent] z-20 h-[67px] w-full fixed bottom-0 left-0 right-0 "></div>
                     </div>
                   </>
                 </AnimatePresence>
