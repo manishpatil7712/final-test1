@@ -151,7 +151,7 @@ const Home = () => {
                       id="footermain"
                       className={`${
                         loading || hider ? "hidden" : "flex"
-                      } z-30 flex-col bg-[#000] fixed bottom-0 pt-3 pb-6 left-0 right-0 justify-center items-center px-3`}
+                      } z-30 flex-col bg-[transparent] fixed bottom-0 pt-3 pb-6 left-0 right-0 justify-center items-center px-3`}
                     >
                       <Footer />
 
