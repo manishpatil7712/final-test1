@@ -42,7 +42,7 @@ const Home = () => {
       setLoading(false);
     }, 2000);
 
-    window.Telegram.WebApp.setHeaderColor("#000"); // Set header color to black
+    window.Telegram.WebApp.setHeaderColor("#4bcbf2"); // Set header color to black
 
     // Haptic feedback
     if (tele.HapticFeedback) {
